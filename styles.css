@@ -164,3 +164,74 @@
     transform: translateY(0);
   }
   
+  @media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links a {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  #hero,
+  #hero-productos {
+    height: auto;
+    padding: 4rem 1rem;
+    flex-direction: column;
+  }
+
+  .contenido-hero h1 {
+    font-size: 2rem;
+  }
+
+  .contenido-hero p {
+    font-size: 1rem;
+  }
+
+  .seccion-fondo,
+  .seccion-clara {
+    padding: 3rem 1rem;
+    flex-direction: column;
+  }
+
+  .contenido-seccion h2 {
+    font-size: 1.75rem;
+  }
+
+  .contenido-seccion p {
+    font-size: 1rem;
+  }
+
+  .frase-separador {
+    font-size: 1.25rem;
+    padding: 2rem 1rem;
+  }
+
+  .divider {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .separador {
+    height: 30vh;
+  }
+}
